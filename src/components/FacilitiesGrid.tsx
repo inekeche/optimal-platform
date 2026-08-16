@@ -1,0 +1,17 @@
+export const facilityCategories = [
+  { name: "Commercial Facilities", desc: "Office buildings, corporate HQs, co-working spaces, malls, banks, retail, and hotels." },
+  { name: "Residential Facilities", desc: "Apartments, estates, gated communities, duplexes, hostels, and senior living." },
+  { name: "Industrial Facilities", desc: "Factories, manufacturing/processing plants, warehouses, refineries, and assembly plants." },
+  { name: "Healthcare Facilities", desc: "Hospitals, clinics, diagnostic labs, maternity homes, and research centers." },
+  { name: "Educational Facilities", desc: "Schools, universities, polytechnics, colleges, libraries, and research institutes." },
+  { name: "Government & Public", desc: "Courts, public service centers, police/fire stations, and legislative buildings." },
+  { name: "Hospitality & Leisure", desc: "Hotels, resorts, event centers, cinemas, theaters, and tourist attractions." },
+  { name: "Sports & Recreation", desc: "Stadiums, sports complexes, gyms, swimming pools, and golf courses." },
+  { name: "Religious Facilities", desc: "Churches, mosques, temples, retreat centers, and mission houses." },
+  { name: "Transportation Facilities", desc: "Airports, seaports, railway stations, bus terminals, and logistics hubs." },
+  { name: "Utility & Infrastructure", desc: "Power/water/sewage treatment plants, data centers, and telecom hubs." },
+  { name: "Agricultural Facilities", desc: "Greenhouses, poultry/livestock, fish farms, silos, and processing centers." },
+  { name: "Security & Emergency", desc: "Emergency operation centers, correctional centers, and control centers." },
+  { name: "Mixed-Use Facilities", desc: "Live-work-play developments, commercial-residential complexes, and business parks." },
+  { name: "Special-Purpose Facilities", desc: "Clean rooms, research labs, broadcasting studios, and defense installations." },
+];

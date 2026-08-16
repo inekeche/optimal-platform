@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #001f3f; /* Deep Navy Dark Base */
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Updated Brand Utility Classes */
+.bg-navy-main { background-color: #003366; }
+.bg-navy-dark { background-color: #001f3f; }
+.bg-navy-light { background-color: #004488; }
+
+.text-orange-brand { color: #F58220; }
+.bg-orange-brand { background-color: #F58220; }
+.border-orange-brand { border-color: #F58220; }
+
+.hover\:bg-orange-dark:hover { background-color: #D66B12; }
+.hover\:text-orange-brand:hover { color: #F58220; }
+
+.text-charcoal { color: #4A4A4A; }
+.bg-charcoal { background-color: #4A4A4A; }
+
+.text-emerald-brand { color: #009966; }
+.bg-emerald-brand { background-color: #009966; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #001f3f;
+}
+::-webkit-scrollbar-thumb {
+  background: #F58220;
+  border-radius: 4px;
+}

@@ -1,0 +1,45 @@
+export const servicesData = [
+  {
+    category: "Hard FM Services",
+    description: "Technical, structural, and heavy equipment systems management.",
+    items: [
+      "Mechanical, Electrical, and Plumbing (MEP) Systems",
+      "HVAC Systems Management",
+      "Electrical Systems & Power Maintenance",
+      "Plumbing Systems & Fixtures",
+      "Generators and Power Systems",
+      "Solar Power Systems Installation & Maintenance",
+      "Building Fabric and Structural Maintenance",
+      "Fire Safety and Protection Systems",
+      "Elevators, Escalators & Vertical Transportation",
+      "Building Automation Systems (BAS) & Controls",
+    ],
+  },
+  {
+    category: "Soft FM Services",
+    description: "Environmental, security, and human-centric facility support.",
+    items: [
+      "Cleaning, Housekeeping & Janitorial Services",
+      "Waste Management & Disposal",
+      "Pest Control & Fumigation",
+      "Security & Access Control Systems",
+      "Landscaping & Grounds Maintenance",
+      "Catering, Pantry & Hospitality Services",
+      "Reception, Concierge & Front Desk Services",
+    ],
+  },
+  {
+    category: "Integrated FM Services",
+    description: "Strategic, advisory, and overarching administrative control.",
+    items: [
+      "Free Property & Facility Consultation",
+      "Asset Management & Lifespan Extension",
+      "Space Management & Planning",
+      "Energy & Sustainability Management",
+      "Health, Safety & Environment (HSE) Compliance",
+      "Vendor & Contractor Management",
+      "Project & Lifecycle Management",
+      "Workplace Management & Business Continuity Planning",
+    ],
+  },
+];
